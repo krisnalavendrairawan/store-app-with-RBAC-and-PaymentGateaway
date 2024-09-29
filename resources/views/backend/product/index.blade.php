@@ -57,7 +57,6 @@
                         data: 'price',
                         name: 'price',
                         render: function(data, type, row) {
-                            // Format angka ke mata uang Rupiah
                             return 'Rp ' + new Intl.NumberFormat('id-ID').format(data);
                         }
                     },

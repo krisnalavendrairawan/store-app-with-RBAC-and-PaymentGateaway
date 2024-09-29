@@ -55,6 +55,8 @@ return [
     'image' => 'Image',
     'transaction' => 'Transaction',
     'amount' => 'Amount',
+    'select_user' => 'Select User',
+    
 
     // Action
     'add' => 'Add',
@@ -91,6 +93,8 @@ return [
     'new_password' => 'New Password',
     'province' => 'Province',
     'select_date' => 'Select Date',
+    'search_user' => 'Search User',
+    'save_changes' => 'Save Changes',
 
     // Time
     'year' => 'Year',

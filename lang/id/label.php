@@ -62,6 +62,7 @@ return [
     'image' => 'Gambar',
     'transaction' => 'Transaksi',
     'amount' => 'Jumlah',
+    'select_user' => 'Pilih Pengguna',
 
     // Action
     'add' => 'Add',
@@ -69,7 +70,7 @@ return [
     'add_new_file' => 'Add New File',
     'create' => 'Create',
     'edit' => 'Edit',
-    'delete' => 'Delete',
+    'delete' => 'Hapus',
     'deleting' => 'Deleting',
     'list' => 'List',
     'search' => 'Search',
@@ -92,6 +93,8 @@ return [
     'detail' => 'Detail',
     'verifying' => 'Verifying',
     'continue' => 'Continue',
+    'search_user' => 'Cari Pengguna',
+    'save_changes' => 'Simpan Perubahan',
 
     // Time
     'year' => 'Tahun',

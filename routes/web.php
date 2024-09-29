@@ -51,7 +51,8 @@ Route::middleware('auth')->group(
         Route::resource('transaction', TransactionController::class)->except(['show']);
         Route::get('transaction/data-table', [TransactionController::class, 'dataTable'])->name('transaction.data');
         Route::post('/midtrans-callback', [TransactionController::class, 'handleCallback'])->name('midtrans.callback');
-
+        Route::get('/check-transaction-status/{orderId}', [TransactionController::class, 'checkStatus']);
+        Route::post('/update-transaction-status', [TransactionController::class, 'updateStatus'])->name('transaction.updateStatus');
 
 
         Route::get('/chart', function () {

@@ -11,9 +11,9 @@
 
                     {{-- User Search with Select2 --}}
                     <div class="mb-4">
-                        <label for="user-search" class="form-label">{{ __('Search Users') }}</label>
+                        <label for="user-search" class="form-label">{{ __('label.search_user') }}</label>
                         <select id="user-search" class="form-control select2" style="width: 100%;">
-                            <option value="">-- Select User --</option>
+                            <option value="">{{ __('label.select_user') }}</option>
                         </select>
                     </div>
 
@@ -44,12 +44,17 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="text-center mt-4">
+                                    <a href="{{ route('dashboard.index') }}"
+                                        class="btn btn-danger">{{ __('label.cancel') }}</a>
+                                    <button id="save-roles-permissions"
+                                        class="btn btn-primary">{{ __('label.save_changes') }}
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="text-center mt-4">
-                            <button id="save-roles-permissions" class="btn btn-primary">Save Changes</button>
-                        </div>
+
                     </div>
                 </div>
             </div>
